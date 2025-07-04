@@ -1,0 +1,4 @@
+#!/bin/bash
+set -eaux pipefail
+
+gcc -o sg monocypher.c serialguard.c serialguard_test.c 
